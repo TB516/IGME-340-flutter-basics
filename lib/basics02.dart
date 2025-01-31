@@ -37,13 +37,13 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.blue,
       ),
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.end,
+        mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.end, 
         children: [
-          Container(width: 150, height: 150, color: Color.fromARGB(255, 255, 0, 0), alignment: Alignment.center, child: Text("A")),
-          Container(width: 150 * 3/4, height: 150, color: Color.fromARGB(255, 255, 170, 0), alignment: Alignment.center, child: Text("B")),
-          Container(width: 150 * 2/4, height: 150, color: Color.fromARGB(255, 0, 255, 42), alignment: Alignment.center, child: Text("C")),
-          Container(width: 150 * 1/4, height: 150, color: Color.fromARGB(255, 117, 200, 238), alignment: Alignment.center, child: Text("D")) 
+          Container(width: 350, height: 100, color: Color.fromARGB(255, 255, 0, 0), alignment: Alignment.center, child: Text("Item 01")),
+          Container(width: 350 * 2/3, height: 100, color: Color.fromARGB(255, 255, 170, 0), alignment: Alignment.center, child: Text("Item 02")),
+          Container(width: 350 * 3/7, height: 100, color: Color.fromARGB(255, 0, 255, 42), alignment: Alignment.center, child: Text("Item 03")),
+          Container(width: 350 * 1/6, height: 100, color: Color.fromARGB(255, 117, 200, 238), alignment: Alignment.center, child: Text("Item 04")) 
           ]
         )
     );
