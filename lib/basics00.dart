@@ -32,7 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: const Text("IGME-340 Basic App"),
       ),
-      body: Align(child: Container(width: 200, height: 200), alignment: Alignment.centerRight),
+      body: Align(alignment: Alignment.center, child: Container(width: 200, height: 200, color: Color.fromARGB(100, 0, 0, 255),)),
     );
   }
 }
